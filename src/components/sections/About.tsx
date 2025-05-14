@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaBaseballBall, FaLaptopCode, FaTrophy } from 'react-icons/fa';
+import { FaBaseballBall, FaLaptopCode, FaGraduationCap } from 'react-icons/fa';
 import profileImg from '../../assets/rm-portrait.jpg';
 
 const About = () => {
@@ -24,7 +24,7 @@ const About = () => {
                 className="rounded-lg w-full max-w-md shadow-lg"
               />
               <div className="absolute -bottom-5 -right-5 bg-secondary text-white p-4 rounded-lg shadow-lg">
-                <p className="font-bold">5+ Years Experience</p>
+                <p className="font-bold">Open for Collaborations</p>
               </div>
             </div>
           </motion.div>
@@ -40,15 +40,17 @@ const About = () => {
               From the Diamond to the Digital Field
             </h3>
             <p className="mb-6">
-              As a former college baseball player, I bring the same dedication, 
-              discipline, and team-first mindset to my work as a web designer 
-              specializing in sports websites.
+              As a former college baseball player, I bring the same discipline, 
+              grit, and team-first mindset to every web project I take on. My 
+              background in sports gives me a unique lens for understanding how 
+              athletes and teams connect with their audience—on the field and online.
             </p>
             <p className="mb-8">
-              My unique background gives me a genuine understanding of what athletes, 
-              teams, and sports brands need from their online presence. I combine 
-              cutting-edge design with authentic sports knowledge to create websites 
-              that truly connect with fans and athletes alike.
+              I'm a self-taught designer and developer who's worked on a growing 
+              number of personal projects and collaborations, especially in the 
+              sports and tech space. I combine creative thinking with a strong 
+              foundation in web design and front-end development to help brands 
+              stand out and perform online.
             </p>
             
             {/* Stats */}
@@ -57,17 +59,17 @@ const About = () => {
                 {
                   icon: <FaBaseballBall />,
                   title: 'Sports Background',
-                  description: 'College baseball experience informing authentic design'
+                  description: 'College baseball experience informs design thinking'
                 },
                 {
                   icon: <FaLaptopCode />,
-                  title: '50+ Projects',
-                  description: 'Completed for teams, leagues, and athletes'
+                  title: 'Hands-On Projects',
+                  description: 'Built websites and UIs for personal brands and sports mockups'
                 },
                 {
-                  icon: <FaTrophy />,
-                  title: 'Award Winning',
-                  description: '3x recipient of sports design awards'
+                  icon: <FaGraduationCap />,
+                  title: 'Always Learning',
+                  description: 'Actively learning React, Tailwind, and building SaaS side projects'
                 }
               ].map((item, index) => (
                 <div key={index} className="text-center">
