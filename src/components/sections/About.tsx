@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { FaBaseballBall, FaLaptopCode, FaTrophy } from 'react-icons/fa';
-import profileImg from '../../assets/profile.webp';
+import profileImg from '../../assets/rm-portrait.jpg';
 
 const About = () => {
   return (

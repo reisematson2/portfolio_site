@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
 import { FaChevronDown } from 'react-icons/fa';
-import heroBg from '../../assets/hero-bg.webp';
+import heroBg from '../../assets/hero-bg.jpg';
 
 const Hero = () => {
   return (
