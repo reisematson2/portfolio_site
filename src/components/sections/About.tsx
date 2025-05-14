@@ -4,7 +4,7 @@ import profileImg from '../../assets/rm-portrait.jpg';
 
 const About = () => {
   return (
-    <section id="about" className="py-20 bg-neutral">
+    <section id="about" className="py-12 bg-neutral">
       <div className="section-container">
         <h2 className="section-title">About Me</h2>
         

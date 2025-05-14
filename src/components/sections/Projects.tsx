@@ -32,7 +32,7 @@ const projects: Project[] = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-20">
+    <section id="projects" className="py-12">
       <div className="section-container">
         <h2 className="section-title">More Projects</h2>
         

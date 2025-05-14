@@ -75,7 +75,7 @@ const Portfolio = () => {
   );
 
   return (
-    <section id="portfolio" className="py-20">
+    <section id="portfolio" className="py-12">
       <div className="section-container">
         <h2 className="section-title">Portfolio</h2>
         

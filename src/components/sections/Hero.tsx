@@ -28,21 +28,39 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="btn-primary"
+            <Link
+              to="portfolio"
+              smooth={true}
+              duration={500}
+              offset={-70}
+              spy={true}
+              hashSpy={true}
             >
-              View My Work
-            </motion.button>
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="btn-primary"
+              >
+                View My Work
+              </motion.button>
+            </Link>
             
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="btn-secondary"
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
+              offset={-70}
+              spy={true}
+              hashSpy={true}
             >
-              Get in Touch
-            </motion.button>
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="btn-secondary"
+              >
+                Get in Touch
+              </motion.button>
+            </Link>
           </div>
         </motion.div>
       </div>
@@ -51,8 +69,10 @@ const Hero = () => {
         <Link
           to="about"
           smooth={true}
-          duration={800}
+          duration={500}
           offset={-70}
+          spy={true}
+          hashSpy={true}
           className="animate-bounce cursor-pointer"
         >
           <FaChevronDown className="text-white text-2xl" />

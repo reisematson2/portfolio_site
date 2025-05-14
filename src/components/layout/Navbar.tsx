@@ -55,8 +55,10 @@ const Navbar = () => {
               key={link.name}
               to={link.to}
               smooth={true}
-              duration={500}
+              duration={400}
               offset={-70}
+              spy={true}
+              hashSpy={true}
               className={`mx-3 text-sm font-medium cursor-pointer transition-colors hover:text-secondary ${
                 scrolled ? 'text-neutral-dark' : 'text-white'
               }`}
@@ -93,8 +95,10 @@ const Navbar = () => {
                   key={link.name}
                   to={link.to}
                   smooth={true}
-                  duration={500}
+                  duration={400}
                   offset={-70}
+                  spy={true}
+                  hashSpy={true}
                   className="px-6 py-2 text-neutral-dark font-medium hover:bg-neutral hover:text-secondary cursor-pointer"
                   onClick={() => setIsOpen(false)}
                 >

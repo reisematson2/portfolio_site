@@ -50,7 +50,7 @@ const services: Service[] = [
 
 const Services = () => {
   return (
-    <section id="services" className="py-20 bg-neutral">
+    <section id="services" className="py-12 bg-neutral">
       <div className="section-container">
         <h2 className="section-title">Services</h2>
         
