@@ -2,9 +2,10 @@ import { motion } from 'framer-motion';
 
 const About = () => {
   const skills = [
-    'React', 'Next.js', 'Vue.js', 'JavaScript', 'TypeScript',
-    'Tailwind CSS', 'Node.js', 'GraphQL', 'MongoDB', 'Firebase',
-    'Git', 'CI/CD', 'Figma', 'Jest', 'Webpack'
+    'Small Business Websites', 'Booking Systems', 'Client Management',
+    'Payment Integration', 'Mobile Responsive Design', 'Performance Optimization',
+    'SEO for Local Businesses', 'Custom Web Applications', 'Analytics',
+    'User Experience Design', 'Training Platforms', 'Team Collaboration Tools'
   ];
 
   return (
@@ -43,20 +44,21 @@ const About = () => {
             transition={{ duration: 0.5 }}
           >
             <h2 className="text-accent text-xl mb-2">About Me</h2>
-            <h3 className="text-4xl font-bold mb-6">A passionate developer crafting digital experiences</h3>
+            <h3 className="text-4xl font-bold mb-6">Helping sports and fitness businesses succeed online</h3>
             
             <div className="space-y-4 mb-8 text-white/80">
               <p>
-                I'm Jane Doe, a full-stack web developer with over 5 years of experience building robust web applications. 
+                I'm Jane Doe, a full-stack web developer with over 5 years of experience building robust web applications for small businesses. 
                 I specialize in creating responsive, performant, and accessible websites using modern technologies.
               </p>
               <p>
                 My approach combines technical expertise with a keen eye for design to deliver solutions that not only function 
-                flawlessly but also provide exceptional user experiences. I'm passionate about clean code, performance optimization, 
-                and staying current with the latest web development trends.
+                flawlessly but also provide exceptional user experiences. With roots in competitive sport and a passion for clean web design, 
+                I love building tools that help people perform—on the field or in business.
               </p>
               <p>
-                When I'm not coding, you can find me hiking, reading sci-fi novels, or experimenting with new cooking recipes.
+                I understand the unique challenges faced by sports and fitness businesses and create digital solutions that streamline operations, 
+                enhance client engagement, and drive growth.
               </p>
             </div>
             

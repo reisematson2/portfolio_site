@@ -39,7 +39,7 @@ const Footer = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
         >
           <p className="text-white/50 text-sm mt-4 md:mt-0">
-            &copy; {currentYear} Jane Doe. All rights reserved.
+            &copy; {currentYear} Jane Doe. Helping sports & fitness businesses thrive online.
           </p>
           
           <div className="flex space-x-4">

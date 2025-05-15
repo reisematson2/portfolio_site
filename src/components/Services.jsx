@@ -2,24 +2,24 @@ import { motion } from 'framer-motion';
 
 const servicesList = [
   {
-    title: 'MVP Development',
-    description: 'Transforming your ideas into viable products with clean, efficient code and rapid iterative development.',
+    title: 'Custom Websites for Small Businesses',
+    description: 'Beautiful, fast-loading websites designed specifically for small businesses in the sports and fitness industry.',
+    icon: '🏆'
+  },
+  {
+    title: 'Booking, Scheduling & CRM Tools',
+    description: 'Custom tools to manage your clients, appointments, and classes—making your business run smoothly and efficiently.',
+    icon: '📆'
+  },
+  {
+    title: 'Sport-Specific Platforms',
+    description: 'Specialized solutions for team planning, training logs, and athlete management tailored to your specific sport.',
+    icon: '⚽'
+  },
+  {
+    title: 'One-Page Sites, Landing Pages & Rebrands',
+    description: 'Quick, effective digital presence solutions—from simple landing pages to complete brand refreshes.',
     icon: '🚀'
-  },
-  {
-    title: 'Frontend Prototyping',
-    description: 'Creating engaging user interfaces with modern frameworks like React, focusing on performance and user experience.',
-    icon: '💻'
-  },
-  {
-    title: 'UI/UX Design',
-    description: 'Designing intuitive, accessible, and visually appealing interfaces that delight users and achieve business goals.',
-    icon: '🎨'
-  },
-  {
-    title: 'Code Refactoring',
-    description: 'Optimizing existing codebases for better performance, maintainability, and scalability.',
-    icon: '⚙️'
   }
 ];
 
@@ -34,11 +34,10 @@ const Services = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-accent text-xl mb-2">What I Do</h2>
-          <h3 className="text-4xl font-bold mb-4">My Services</h3>
+          <h2 className="text-accent text-xl mb-2">How I Can Help</h2>
+          <h3 className="text-4xl font-bold mb-4">Services for Your Business</h3>
           <p className="text-white/70 max-w-2xl mx-auto">
-            I provide comprehensive solutions for modern web development challenges, focusing on
-            performance, usability, and maintainability.
+            I create digital solutions specifically for small businesses in sports and fitness, helping you connect with clients, streamline operations, and grow your business.
           </p>
         </motion.div>
         

@@ -3,34 +3,34 @@ import './Projects.css';
 
 const projectsList = [
   {
-    title: 'E-commerce Platform',
-    description: 'A full-featured online store with cart, checkout, and payment integration',
-    image: 'https://placehold.co/600x400/0f172a/3b82f6?text=E-commerce',
+    title: 'PlanMyPractice',
+    description: 'A web app for coaches to plan, share, and manage practices. Designed for real-time collaboration and efficient training organization.',
+    image: 'https://placehold.co/600x400/0f172a/3b82f6?text=PlanMyPractice',
     tags: ['React', 'Node.js', 'MongoDB'],
     demoLink: '#',
     codeLink: '#'
   },
   {
-    title: 'SaaS Dashboard',
-    description: 'Analytics dashboard for SaaS businesses with data visualization',
-    image: 'https://placehold.co/600x400/0f172a/3b82f6?text=Dashboard',
-    tags: ['Next.js', 'Tailwind', 'Chart.js'],
+    title: 'FitBookPro',
+    description: 'A comprehensive booking system for fitness studios that allows clients to schedule classes, manage memberships, and track progress all in one place.',
+    image: 'https://placehold.co/600x400/0f172a/3b82f6?text=FitBookPro',
+    tags: ['Next.js', 'Tailwind', 'PostgreSQL'],
     demoLink: '#',
     codeLink: '#'
   },
   {
-    title: 'Social Media App',
-    description: 'Instagram-like application with real-time feeds and messaging',
-    image: 'https://placehold.co/600x400/0f172a/3b82f6?text=Social+App',
-    tags: ['React', 'Firebase', 'Tailwind'],
+    title: 'IronGym Website',
+    description: 'A modern, responsive website for a local gym featuring class schedules, trainer profiles, and membership information with seamless online sign-ups.',
+    image: 'https://placehold.co/600x400/0f172a/3b82f6?text=IronGym',
+    tags: ['React', 'Tailwind', 'Firebase'],
     demoLink: '#',
     codeLink: '#'
   },
   {
-    title: 'Task Management Tool',
-    description: 'Collaborative task manager with drag-and-drop interface',
-    image: 'https://placehold.co/600x400/0f172a/3b82f6?text=Tasks+App',
-    tags: ['React', 'Redux', 'Node.js'],
+    title: 'AthleteTracker',
+    description: 'Performance tracking tool for coaches and athletes to monitor progress, set goals, and visualize improvements over time with custom metrics.',
+    image: 'https://placehold.co/600x400/0f172a/3b82f6?text=AthleteTracker',
+    tags: ['React', 'Chart.js', 'Node.js'],
     demoLink: '#',
     codeLink: '#'
   }
@@ -47,10 +47,10 @@ const Projects = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-accent text-xl mb-2">My Work</h2>
+          <h2 className="text-accent text-xl mb-2">Success Stories</h2>
           <h3 className="text-4xl font-bold mb-4">Featured Projects</h3>
           <p className="text-white/70 max-w-2xl mx-auto">
-            A showcase of my recent development work, personal projects, and client collaborations.
+            Custom solutions I've built for sports and fitness businesses that helped them grow and better serve their clients.
           </p>
         </motion.div>
         

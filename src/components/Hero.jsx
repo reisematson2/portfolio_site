@@ -51,7 +51,7 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6 }}
           >
-            I create high-performing web applications that provide exceptional user experiences.
+            I help small businesses grow online—especially in sports and fitness. From websites to custom tools, I build fast, effective digital solutions.
           </motion.p>
           
           {mounted && (
@@ -65,14 +65,14 @@ const Hero = () => {
                 onClick={handleButtonClick('contact')}
                 className="hero-button hero-button-primary"
               >
-                Let's Work Together
+                Let's Build Your Website
               </button>
               
               <button
                 onClick={handleButtonClick('projects')}
                 className="hero-button hero-button-secondary"
               >
-                View My Work
+                See My Work
               </button>
             </motion.div>
           )}

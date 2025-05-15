@@ -36,10 +36,10 @@ const Contact = () => {
           transition={{ duration: 0.5 }}
         >
           <h2 className="text-accent text-xl mb-2">Get In Touch</h2>
-          <h3 className="text-4xl font-bold mb-4">Let's Work Together</h3>
+          <h3 className="text-4xl font-bold mb-4">Ready to Grow Your Business Online?</h3>
           <p className="text-white/70 max-w-2xl mx-auto">
-            Have a project in mind or just want to say hello? Feel free to drop me a message,
-            and I'll get back to you as soon as possible.
+            Own a gym, run a clinic, or coach a team? Let's build your digital home base. 
+            Drop me a message, and I'll get back to you soon to discuss how I can help your business thrive online.
           </p>
         </motion.div>
         
