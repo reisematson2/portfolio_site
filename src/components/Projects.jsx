@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import './Projects.css';
 
 const projectsList = [
   {
@@ -91,13 +92,13 @@ const Projects = () => {
                 <div className="flex space-x-3">
                   <a 
                     href={project.demoLink} 
-                    className="text-sm font-medium px-4 py-2 bg-accent text-white rounded hover:bg-accent/90 transition-colors"
+                    className="project-button project-button-primary"
                   >
                     Live Demo
                   </a>
                   <a 
                     href={project.codeLink} 
-                    className="text-sm font-medium px-4 py-2 bg-white/10 text-white rounded hover:bg-white/20 transition-colors"
+                    className="project-button project-button-secondary"
                   >
                     View Code
                   </a>

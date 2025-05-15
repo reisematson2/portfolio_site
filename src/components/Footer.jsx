@@ -23,7 +23,7 @@ const Footer = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
-            <a href="#" className="text-white/60 hover:text-accent transition-colors">Home</a>
+            <a href="#hero" className="text-white/60 hover:text-accent transition-colors">Home</a>
             <a href="#services" className="text-white/60 hover:text-accent transition-colors">Services</a>
             <a href="#projects" className="text-white/60 hover:text-accent transition-colors">Projects</a>
             <a href="#about" className="text-white/60 hover:text-accent transition-colors">About</a>

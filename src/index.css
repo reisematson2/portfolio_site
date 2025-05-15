@@ -15,6 +15,7 @@
 
 html {
   color-scheme: dark;
+  scroll-behavior: smooth;
 }
 
 html.dark {
@@ -39,7 +40,22 @@ a {
   transition: color 0.3s;
 }
 
-a:hover {
+/* Remove default styles from anchor tags used as buttons */
+a[href^="#"], 
+a.project-button,
+a.hero-button {
+  text-decoration: none;
+}
+
+/* Ensure hover states don't have text color changes when they're buttons */
+a[href^="#"]:hover,
+a.project-button:hover,
+a.hero-button:hover {
+  color: inherit;
+}
+
+/* Default hover for regular links */
+a:hover:not([href^="#"]):not(.project-button):not(.hero-button) {
   color: color-mix(in srgb, var(--color-accent) 80%, transparent);
 }
 
